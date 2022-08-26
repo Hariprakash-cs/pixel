@@ -41,7 +41,7 @@ function Login() {
                 <div className='col-md-5 mt-5'>
                     {error && (<Error message="Invalid Credentials" />)}
                     <div className='box-shadow p-4 login'>
-                        <h2 className='pad-10' style={{ color: "black" }}>Login</h2>
+                        <h2 className='pad-10' style={{ color: "white" }}>Login</h2>
 
                         <input type='text' className='form-control' placeholder='Email' value={email} onChange={(e) => { setemail(e.target.value) }} />
                         <input type='text' className='form-control' placeholder='Password' value={password} onChange={(e) => { setpassword(e.target.value) }} />
@@ -49,7 +49,7 @@ function Login() {
                         <button className='btn btn-log mt-3' onClick={login}>Login</button>
 
                     </div>
-                    <div className="text-center">
+                    <div className="text-center" >
                         <span>User-Email:user@gmail.com</span><br />
                         <span>User-Admin:admin@gmail.com</span><br />
                         <span>Password:123</span>

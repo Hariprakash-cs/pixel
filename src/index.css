@@ -19,7 +19,7 @@ body {
     padding: 30px 40px;
 }
 .register-background{
-  background-image: url("./asserts/night.png") !important;
+  background-image: url("./asserts/register-2.svg") !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -30,23 +30,26 @@ body {
 .login{
   color:white;
   backdrop-filter: blur(5px);
-  border: 0px solid;
+  border: 2px solid;
   padding: 30px 40px;
   margin-top: 1px;
   -webkit-box-shadow: 0px 2px 50px 15px #2F3C4B;
   -moz-box-shadow: 0px 2px 50px 15px #2F3C4B;
   box-shadow: 0px 2px 50px 15px #2F3C4B;
 }
+
 .login-background{
-  background-image: url("./asserts/day.jpg");
+  
+  
+  background-image: url("./asserts/register-2.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover !important;
   height:100vh;
   width:100%;
 }
 .login-background span{
-  color: black !important;
+  color: white !important;
   font-size: 25px !important;
   font-weight: bold;
 }
