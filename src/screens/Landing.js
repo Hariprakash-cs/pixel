@@ -12,7 +12,7 @@ function Landing() {
   }, []);
   return (
     <div className='bg-img' onClick={()=>window.location.href='/home'}>
-        <div className='cont' >
+        <div className='cont'>
           <h3 className='intro'>
           <span ref={textRef}></span><br></br>
           </h3>
