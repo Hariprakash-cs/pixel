@@ -10,6 +10,10 @@ function Landing() {
       strings: [ "Get Started"],
     });
   }, []);
+
+  setTimeout(()=>{
+    window.location.href='/home'
+  },5000);
   return (
     <div className='bg-img' onClick={()=>window.location.href='/home'}>
         <div className='cont'>

@@ -54,7 +54,7 @@ function Player() {
                     </div>
                     <div className='col-md-6 play-cont mt-2'>
                       <h5><b>Title:</b>{` ${e.title} from ${e.movie}`}</h5>
-                      <h6><b>Cast:</b>{` ${e.cast}`}</h6>
+                      <h6><b>Cast & Crew:</b>{` ${e.cast}`}</h6>
                       <h6><b>Published At:</b>{` ${date}`}</h6>
                     </div>
                   </div>
