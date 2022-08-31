@@ -50,9 +50,9 @@ function Login() {
 
                     </div>
                     <div className="text-center" >
-                        <span>User-Email:user@gmail.com</span><br />
-                        <span>User-Admin:admin@gmail.com</span><br />
-                        <span>Password:123</span>
+                        <span>{`User : user@gmail.com`}</span><br />
+                        <span>{`Admin : admin@gmail.com`}</span><br />
+                        <span>{`Password : 123`}</span>
                     </div>
                 </div>
             </div>
