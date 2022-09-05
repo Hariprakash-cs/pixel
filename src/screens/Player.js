@@ -12,6 +12,7 @@ function Player() {
   const [video, setvideo] = useState()
   let [createdat, setcreatedat] = useState()
   useEffect(() => {
+    window.scrollTo(0,0)
     if (!localStorage.getItem('react_app_token')) {
       Swal.fire('Oops', 'Login, before playing video', 'error').then(result => {
         window.location.href = '/login'
