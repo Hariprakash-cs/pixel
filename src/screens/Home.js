@@ -71,9 +71,10 @@ function Home() {
                 <div className='col-md-1'></div>
             </div>
             {loading ? (<Loader />) : (
-                <div className='row mt-2'>
+                <div className='container'>
+                    <div className='row mt-2'>
                     <div className='col-md-12'>
-                        <div className='row p-2'>
+                        <div className='row p-2 d-flex justify-content-around'>
                             {videos.map((e) => {
                                 return (
                                     <div className="card col-md-3 py-1 px-1 " >
@@ -94,6 +95,7 @@ function Home() {
                             })}
                         </div>
                     </div>
+                </div>
                 </div>
             )}
         </div>

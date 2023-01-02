@@ -45,7 +45,7 @@ function Player() {
             return (
               <div className='play-body'>
                 <div className='container '>
-                  <div className='row justify-content-center'>
+                  <div className='row d-flex flex-column align-items-center justify-content-center'>
                     <div className='col-md-8 video-player box-shadow-1 '>
 
                       <ReactPlayer controls url={e.video_link}
