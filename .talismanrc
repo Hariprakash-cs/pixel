@@ -1,6 +1,6 @@
 fileignoreconfig:
 - filename: src/config.js
-  checksum: 1b6677fe3a1fcb59f7246dceb5bc507f7bbd381dc43f8311de7e3c48885cc9af
+  checksum: 83e45d1aafbd73a7c2a52419cbcc350a32e548e543dfa8944d178845a658fc2b
 - filename: FINAL_IMPLEMENTATION_SUMMARY.md
   checksum: f310db5c7b42db31b7bcf0fde48e0bf5fd7f9980226b6fe11fd4a572ea70277c
 - filename: CONTENTSTACK_INTEGRATION.md
