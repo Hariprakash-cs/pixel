@@ -1,0 +1,28 @@
+fileignoreconfig:
+- filename: src/config.js
+  checksum: 1b6677fe3a1fcb59f7246dceb5bc507f7bbd381dc43f8311de7e3c48885cc9af
+- filename: FINAL_IMPLEMENTATION_SUMMARY.md
+  checksum: f310db5c7b42db31b7bcf0fde48e0bf5fd7f9980226b6fe11fd4a572ea70277c
+- filename: CONTENTSTACK_INTEGRATION.md
+  checksum: 9dea623ba9643f87a05d75504e27a21dcfeceb67502c40c13931b0a62104990b
+- filename: src/constants/contentstackPosters.js
+  checksum: 3ce374d665215f81b237c9016d7eee27f60ddc81b057d65c7c72c6f00c7b68fa
+- filename: package-lock.json
+  checksum: b39446a2af6fe3a0ba22dbd26fb2f0b208ce3b0bb30cb2b152e6ca019b06a967
+- filename: src/components/AnimeRow.js
+  checksum: bd49b6d500df57ef62c00e5e63009f7d1f381757809de3bf350c64204b226da8
+- filename: src/components/SkeletonLoader.js
+  checksum: 2b553017eb9fb3446ffca345052421253c89cbe48e9fefbd9548a3848341453f
+- filename: src/screens/Login.js
+  checksum: 274c6c4dfbf2b62eca83a93654be7c9a8ecdf1033dd5a35eb0873280ed61e47a
+- filename: src/screens/Home.js
+  checksum: e21c0ce0b4e8436ac4790fe82a179955d88d7ce7a1228817eefe83dd1f50c54d
+- filename: src/screens/Register.js
+  checksum: 047b6d85c181959c0e6be4461e0c1f3ab3f94dd453aacf9299399e3dee84ba8d
+- filename: src/components/AnimeCarousel.js
+  checksum: fddb0c363653d8ec6a82a547019b1502770754f9fbcce625b91a9011721a62ad
+- filename: src/services/contentstackAPI.js
+  checksum: ae2877c893d0d6443d3ba76f71cf449caf9d513908d12b3dda623c0e6ce46259
+- filename: src/screens/ContentstackPlayer.js
+  checksum: b3d32b1e224f2b073a9663305e4fbcaabfce8296c38fde476ff3a0999d4bbde4
+version: "1.0"
